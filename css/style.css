@@ -42,6 +42,11 @@ body {
     background-color: #fff;
 }
 
+.section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
@@ -125,3 +130,122 @@ li{
     height: 677px;
 }
 
+.about-me{
+    display: flex;
+    flex-direction: column;
+    /* background: aquamarine; */
+}
+
+.about-me .name-section{
+    font-size: 64px;
+    color: #232323;
+}
+
+.content-about-me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.julie-photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 3px 1px rgb(235, 233, 233);
+    width: 343px;
+    height: 561px;
+    position: relative;
+    /* padding-top: 10px; */
+
+}
+
+.j-ph-img{
+    width: 278px;
+    height: 371px;
+    position: absolute;
+    left: 120px;
+    top: 70px;
+}
+
+.julie-text{
+    width: 641px;
+}
+
+.photo-text{
+    font-size: 22px;
+    color: #A52424;
+    position: absolute;
+    bottom: 20px;
+    left: 120px
+}
+
+.julie-text h4{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.9px;
+    color: #232323;
+}
+
+.julie-text-title{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 1.1px;
+    color: #A52424;
+}
+
+.portfolio{
+    background: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-name h2{
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    color: #232323;
+}
+
+.portfolio-cards{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.cards{
+    width: 377;
+    height: 576px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards:nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.portfolio-cards .cards h3{
+    color: #101010;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 1.1px;
+}
+
+.portfolio-cards .cards h4{
+    
+}
