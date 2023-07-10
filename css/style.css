@@ -117,6 +117,7 @@ li{
 
 .photographer-julie-name .julie-btn{
     border: 1px solid #A52424;
+    border-radius: 5px;
     width: 336px;
     height: 60px;
     text-decoration: none;
@@ -158,7 +159,6 @@ li{
     height: 561px;
     position: relative;
     /* padding-top: 10px; */
-
 }
 
 .j-ph-img{
@@ -171,6 +171,7 @@ li{
 
 .julie-text{
     width: 641px;
+    position: relative;
 }
 
 .photo-text{
@@ -201,10 +202,27 @@ li{
     color: #A52424;
 }
 
+/* .julie-text-photo{
+    border: 1px solid black;
+} */
+
+.empty{
+    /* background: yellow; */
+    width: 567px;
+    height: 330px;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px 1px rgb(236, 235, 235);
+    position: absolute;
+    top: 260px;
+    right: -30px;
+    z-index: -1;
+}
+
 .portfolio{
-    background: red;
+    /* background: red; */
     display: flex;
     flex-direction: column;
+    height: 1100px;
 }
 
 .portfolio-name h2{
@@ -247,5 +265,182 @@ li{
 }
 
 .portfolio-cards .cards h4{
-    
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.9px;
+}
+
+.portfolio-btn{
+    border: 1px solid #A52424;
+    border-radius: 5px;
+    width: 202px;
+    height: 60px;
+    padding: 20px;
+    text-decoration: none;
+    color: #A52424;
+    text-align: center;
+}
+
+.prises{
+    display: flex;
+    flex-direction: column;
+}
+
+.prises-title{
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+
+}
+
+.prises .prises-photos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-of-service{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 1px solid grey; */
+    box-shadow: 1px 1px 1px 1px rgb(230, 227, 227);
+    /* padding: 20px; */
+    width: 509px;
+}
+
+.card img{
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+
+}
+
+.card h3{
+    text-align: center;
+}
+
+.time-of-service{
+    text-align: right;
+    /* padding-left: 70px; */
+    margin-left: 70px;
+}
+
+.name-of-service{
+    margin-left: 60px;
+}
+
+.price-number-of-service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio-btn-2{
+    border: 1px solid #A52424;
+    border-radius: 5px;
+    width: 202px;
+    height: 60px;
+    padding: 20px;
+    text-decoration: none;
+    color: #A52424;
+    text-align: center;
+    font-size: 16px;
+}
+
+.price-number-of-service-number{
+    text-align: left;
+}
+
+.price-number-of-service-number-btn{
+    text-align: right;
+}
+
+.price-number-of-service-number{
+    font-size: 28px;
+}
+
+.contact-to-julie{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contact-to-julie-title{
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    position: relative;
+}
+
+.contact-to-julie-photos{
+    position: relative;
+}
+
+.img_1{
+    position: absolute;
+    top: 100px;
+}
+
+.img_2{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+.contact-to-julie-form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 370px;
+}
+
+.field-name, .field-email, .mess {
+    width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+}
+
+.btn{
+    width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    color: #A52424;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    background: white;
+}
+
+.mess{
+    height: 200px;
+}
+
+.footer{
+    display: flex;
+    flex: row;
 }
